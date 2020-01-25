@@ -8,20 +8,20 @@
     "packages": [
         {
             "name": "massfice/action",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/action.git",
-                "reference": "b730885b2c7801c82582993a7cf4567ab54a736e"
+                "reference": "ae152e955155190fa7a734c0308b7c887a7f0b7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/action/zipball/b730885b2c7801c82582993a7cf4567ab54a736e",
-                "reference": "b730885b2c7801c82582993a7cf4567ab54a736e",
+                "url": "https://api.github.com/repos/Massfice/action/zipball/ae152e955155190fa7a734c0308b7c887a7f0b7e",
+                "reference": "ae152e955155190fa7a734c0308b7c887a7f0b7e",
                 "shasum": ""
             },
             "require": {
-                "massfice/response-status": "^1.0"
+                "massfice/response-status": "^v1.0"
             },
             "type": "library",
             "autoload": {
@@ -40,7 +40,7 @@
                 }
             ],
             "description": "This package contains action interfaces and factiories. This is for my diploma project.",
-            "time": "2020-01-25T15:46:51+00:00"
+            "time": "2020-01-25T17:11:51+00:00"
         },
         {
             "name": "massfice/action-executor",
@@ -117,16 +117,16 @@
         },
         {
             "name": "massfice/clean-url",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/clean-url.git",
-                "reference": "7408118b32f7b2c3d5e615ac871e6a95692b3af7"
+                "reference": "8e91132f30e80cf46660a9af178cf1c463892a89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/clean-url/zipball/7408118b32f7b2c3d5e615ac871e6a95692b3af7",
-                "reference": "7408118b32f7b2c3d5e615ac871e6a95692b3af7",
+                "url": "https://api.github.com/repos/Massfice/clean-url/zipball/8e91132f30e80cf46660a9af178cf1c463892a89",
+                "reference": "8e91132f30e80cf46660a9af178cf1c463892a89",
                 "shasum": ""
             },
             "type": "libarary",
@@ -146,7 +146,7 @@
                 }
             ],
             "description": "Class that handle clean urls, action, type, etc. To use this class, you have to properly configure .htaccess file. This is for my diploma project.",
-            "time": "2020-01-25T14:26:57+00:00"
+            "time": "2020-01-25T20:35:35+00:00"
         },
         {
             "name": "massfice/response-status",
