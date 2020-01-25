@@ -4,7 +4,8 @@
     "type": "project",
     "require": {
         "massfice/clean-url": "^v1.0",
-        "massfice/action-manager": "^1.0"
+        "massfice/action-manager": "^1.0",
+        "massfice/view": "^1.0"
     },
     "license": "MIT",
     "authors": [
@@ -18,5 +19,7 @@
             "Massfice\\Application\\System\\": "system/",
             "Massfice\\Application\\": "src/"
         }
+    },
+    "require-dev": {
     }
 }

@@ -6,6 +6,7 @@ use Massfice\Action\HtmlAction;
 use Massfice\Action\VerifyStatus;
 use Massfice\ResponseStatus\ResponseStatusFactory;
 use Massfice\ResponseStatus\ResponseStatus;
+use Massfice\Application\System\Views;
 
 class testGET implements HtmlAction {
     public function verify() : VerifyStatus {
@@ -27,7 +28,7 @@ class testGET implements HtmlAction {
     }
 
     public function onDisplay(array $data) {
-        echo $data["test"];
+        Views::generateView("test.tpl",$data);
     }
 
     public function onError(array $errors) {
