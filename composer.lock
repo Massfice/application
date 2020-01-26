@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2fef25128b88746873a9d04475a9bb8d",
+    "content-hash": "22a1610c16df70ec4fe6c04ed485fea0",
     "packages": [
         {
             "name": "massfice/action",
@@ -44,20 +44,21 @@
         },
         {
             "name": "massfice/action-executor",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/action-executor.git",
-                "reference": "bae73a28f9f4de0a0a2d8bf25a7ba18cb1fff78e"
+                "reference": "1a8fee2dfe6551fc29cf9ae6adab94e1f5e102a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/action-executor/zipball/bae73a28f9f4de0a0a2d8bf25a7ba18cb1fff78e",
-                "reference": "bae73a28f9f4de0a0a2d8bf25a7ba18cb1fff78e",
+                "url": "https://api.github.com/repos/Massfice/action-executor/zipball/1a8fee2dfe6551fc29cf9ae6adab94e1f5e102a0",
+                "reference": "1a8fee2dfe6551fc29cf9ae6adab94e1f5e102a0",
                 "shasum": ""
             },
             "require": {
-                "massfice/action": "^1.0"
+                "massfice/action": "^v1.0",
+                "massfice/response-status": "^v1.0"
             },
             "type": "library",
             "autoload": {
@@ -76,25 +77,26 @@
                 }
             ],
             "description": "Action executors for my diploma project.",
-            "time": "2020-01-25T15:51:20+00:00"
+            "time": "2020-01-26T19:26:30+00:00"
         },
         {
             "name": "massfice/action-manager",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/action-manager.git",
-                "reference": "db76299c1b0f8eb8c74ec5741f56da8967c3eb49"
+                "reference": "941119c1e4dfc77c41794e4cff1380a5795c3840"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/action-manager/zipball/db76299c1b0f8eb8c74ec5741f56da8967c3eb49",
-                "reference": "db76299c1b0f8eb8c74ec5741f56da8967c3eb49",
+                "url": "https://api.github.com/repos/Massfice/action-manager/zipball/941119c1e4dfc77c41794e4cff1380a5795c3840",
+                "reference": "941119c1e4dfc77c41794e4cff1380a5795c3840",
                 "shasum": ""
             },
             "require": {
-                "massfice/action": "^1.0.1",
-                "massfice/action-executor": "^1.0"
+                "massfice/action": "^v1.0.1",
+                "massfice/action-executor": "^v1.0",
+                "massfice/response-status": "^v1.0"
             },
             "type": "library",
             "autoload": {
@@ -113,7 +115,7 @@
                 }
             ],
             "description": "Managers for my actions and related factory. It is for my diploma project.",
-            "time": "2020-01-25T15:59:18+00:00"
+            "time": "2020-01-26T19:30:04+00:00"
         },
         {
             "name": "massfice/clean-url",

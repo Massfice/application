@@ -4,8 +4,12 @@
     "type": "project",
     "require": {
         "massfice/clean-url": "^v1.0",
-        "massfice/action-manager": "^1.0",
-        "massfice/view": "^1.0"
+        "massfice/action-manager": "^v1.0",
+        "massfice/view": "^v1.0",
+        "massfice/response-status": "^v1.0",
+        "massfice/action": "^v1.0",
+        "massfice/action-executor": "^v1.0",
+        "smarty/smarty": "^3.1"
     },
     "license": "MIT",
     "authors": [
