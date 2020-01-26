@@ -13,7 +13,7 @@ class testGET implements HtmlAction {
         return new VerifyStatus();
     }
 
-    public function load($data, $config) : array {
+    public function load(array $data, array $config) : array {
         return [
             "test" => "Test message"
         ];
