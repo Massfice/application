@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ffc87b493cb59df7236ab65239b5ef5",
+    "content-hash": "77ef0a22b146565294c120d089e82a71",
     "packages": [
         {
             "name": "massfice/action",
-            "version": "v1.0.4",
+            "version": "v1.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/action.git",
-                "reference": "ae152e955155190fa7a734c0308b7c887a7f0b7e"
+                "reference": "d0c0100913bfc40840e7cb3275e9de7cb8334360"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/action/zipball/ae152e955155190fa7a734c0308b7c887a7f0b7e",
-                "reference": "ae152e955155190fa7a734c0308b7c887a7f0b7e",
+                "url": "https://api.github.com/repos/Massfice/action/zipball/d0c0100913bfc40840e7cb3275e9de7cb8334360",
+                "reference": "d0c0100913bfc40840e7cb3275e9de7cb8334360",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 }
             ],
             "description": "This package contains action interfaces and factiories. This is for my diploma project.",
-            "time": "2020-01-25T17:11:51+00:00"
+            "time": "2020-02-02T12:32:05+00:00"
         },
         {
             "name": "massfice/action-executor",
@@ -119,16 +119,16 @@
         },
         {
             "name": "massfice/application-system",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/application-system.git",
-                "reference": "fc27b1a37c2ceda66827600804bd281b059c776d"
+                "reference": "11de44b9ec799d5fce83d16e7e7dc169665ca412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/application-system/zipball/fc27b1a37c2ceda66827600804bd281b059c776d",
-                "reference": "fc27b1a37c2ceda66827600804bd281b059c776d",
+                "url": "https://api.github.com/repos/Massfice/application-system/zipball/11de44b9ec799d5fce83d16e7e7dc169665ca412",
+                "reference": "11de44b9ec799d5fce83d16e7e7dc169665ca412",
                 "shasum": ""
             },
             "require": {
@@ -157,7 +157,7 @@
                 }
             ],
             "description": "Core of my application. System application package. It's for my diploma project.",
-            "time": "2020-01-26T20:34:18+00:00"
+            "time": "2020-01-28T05:12:12+00:00"
         },
         {
             "name": "massfice/clean-url",
@@ -194,16 +194,16 @@
         },
         {
             "name": "massfice/response-status",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/response-status.git",
-                "reference": "5131211639ccc950fe5de494153ff363f6f077ca"
+                "reference": "5c23a41b41b55da50d8ddba41cc8bd781ad80fc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/response-status/zipball/5131211639ccc950fe5de494153ff363f6f077ca",
-                "reference": "5131211639ccc950fe5de494153ff363f6f077ca",
+                "url": "https://api.github.com/repos/Massfice/response-status/zipball/5c23a41b41b55da50d8ddba41cc8bd781ad80fc4",
+                "reference": "5c23a41b41b55da50d8ddba41cc8bd781ad80fc4",
                 "shasum": ""
             },
             "type": "library",
@@ -223,7 +223,40 @@
                 }
             ],
             "description": "Package contains response-status class, that contains info about validation status, response http code, errors array, messages, etc. Project for my diploma.",
-            "time": "2020-01-25T17:06:20+00:00"
+            "time": "2020-02-02T12:34:02+00:00"
+        },
+        {
+            "name": "massfice/smart",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Massfice/smart.git",
+                "reference": "ff01c6848d3ceeb1de3ee2a51bc5e027ee0445c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Massfice/smart/zipball/ff01c6848d3ceeb1de3ee2a51bc5e027ee0445c9",
+                "reference": "ff01c6848d3ceeb1de3ee2a51bc5e027ee0445c9",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Massfice\\Smart\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Massfice",
+                    "email": "adrian.marian.tomasz.larysz@gmail.com"
+                }
+            ],
+            "description": "Package that makes everything smarter. It's for my project diploma.",
+            "time": "2020-02-02T10:21:35+00:00"
         },
         {
             "name": "massfice/view",
