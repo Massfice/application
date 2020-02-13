@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "77ef0a22b146565294c120d089e82a71",
+    "content-hash": "09af5cf56202b242f62a071dc1b6830d",
     "packages": [
         {
             "name": "massfice/action",
@@ -119,16 +119,16 @@
         },
         {
             "name": "massfice/application-system",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/application-system.git",
-                "reference": "11de44b9ec799d5fce83d16e7e7dc169665ca412"
+                "reference": "6af2406925061059083c2645baf3c043dcc5de6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/application-system/zipball/11de44b9ec799d5fce83d16e7e7dc169665ca412",
-                "reference": "11de44b9ec799d5fce83d16e7e7dc169665ca412",
+                "url": "https://api.github.com/repos/Massfice/application-system/zipball/6af2406925061059083c2645baf3c043dcc5de6c",
+                "reference": "6af2406925061059083c2645baf3c043dcc5de6c",
                 "shasum": ""
             },
             "require": {
@@ -137,6 +137,7 @@
                 "massfice/action-manager": "^v1.0",
                 "massfice/clean-url": "^v1.0",
                 "massfice/response-status": "^v1.0",
+                "massfice/service": "^1.0",
                 "massfice/view": "^v1.0",
                 "smarty/smarty": "^3.1"
             },
@@ -157,7 +158,7 @@
                 }
             ],
             "description": "Core of my application. System application package. It's for my diploma project.",
-            "time": "2020-01-28T05:12:12+00:00"
+            "time": "2020-02-13T17:44:05+00:00"
         },
         {
             "name": "massfice/clean-url",
@@ -224,6 +225,39 @@
             ],
             "description": "Package contains response-status class, that contains info about validation status, response http code, errors array, messages, etc. Project for my diploma.",
             "time": "2020-02-02T12:34:02+00:00"
+        },
+        {
+            "name": "massfice/service",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Massfice/service.git",
+                "reference": "3ab654e2d5510c7c13b760e83789ed9e2a68db2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Massfice/service/zipball/3ab654e2d5510c7c13b760e83789ed9e2a68db2a",
+                "reference": "3ab654e2d5510c7c13b760e83789ed9e2a68db2a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Massfice\\Service\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Massfice",
+                    "email": "adrian.marian.tomasz.larysz@gmail.com"
+                }
+            ],
+            "description": "Services package for my diploma project.",
+            "time": "2020-02-12T21:40:52+00:00"
         },
         {
             "name": "massfice/smart",
