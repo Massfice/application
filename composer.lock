@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "09af5cf56202b242f62a071dc1b6830d",
+    "content-hash": "ed66dbe98dfea632961d9baf818d3c1f",
     "packages": [
         {
             "name": "massfice/action",
@@ -228,16 +228,16 @@
         },
         {
             "name": "massfice/service",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/service.git",
-                "reference": "3ab654e2d5510c7c13b760e83789ed9e2a68db2a"
+                "reference": "2fe1a18d11b7cd178c22a7990272aa60d6becd2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/service/zipball/3ab654e2d5510c7c13b760e83789ed9e2a68db2a",
-                "reference": "3ab654e2d5510c7c13b760e83789ed9e2a68db2a",
+                "url": "https://api.github.com/repos/Massfice/service/zipball/2fe1a18d11b7cd178c22a7990272aa60d6becd2b",
+                "reference": "2fe1a18d11b7cd178c22a7990272aa60d6becd2b",
                 "shasum": ""
             },
             "type": "library",
@@ -257,7 +257,7 @@
                 }
             ],
             "description": "Services package for my diploma project.",
-            "time": "2020-02-12T21:40:52+00:00"
+            "time": "2020-02-19T05:26:11+00:00"
         },
         {
             "name": "massfice/smart",
