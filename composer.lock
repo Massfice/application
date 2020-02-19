@@ -228,16 +228,16 @@
         },
         {
             "name": "massfice/service",
-            "version": "v1.0.2",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/service.git",
-                "reference": "2fe1a18d11b7cd178c22a7990272aa60d6becd2b"
+                "reference": "4f0f606be5744ab559c378b112fae85f3cfce424"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/service/zipball/2fe1a18d11b7cd178c22a7990272aa60d6becd2b",
-                "reference": "2fe1a18d11b7cd178c22a7990272aa60d6becd2b",
+                "url": "https://api.github.com/repos/Massfice/service/zipball/4f0f606be5744ab559c378b112fae85f3cfce424",
+                "reference": "4f0f606be5744ab559c378b112fae85f3cfce424",
                 "shasum": ""
             },
             "type": "library",
@@ -257,7 +257,7 @@
                 }
             ],
             "description": "Services package for my diploma project.",
-            "time": "2020-02-19T05:26:11+00:00"
+            "time": "2020-02-19T05:52:46+00:00"
         },
         {
             "name": "massfice/smart",
