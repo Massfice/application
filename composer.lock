@@ -119,16 +119,16 @@
         },
         {
             "name": "massfice/application-system",
-            "version": "v1.0.4",
+            "version": "v1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/application-system.git",
-                "reference": "1c8511f2d93e84b4fbb11d1d50d08f4f423e5d3d"
+                "reference": "7e01afaa656e068881c6e8eb5713f386867a8874"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/application-system/zipball/1c8511f2d93e84b4fbb11d1d50d08f4f423e5d3d",
-                "reference": "1c8511f2d93e84b4fbb11d1d50d08f4f423e5d3d",
+                "url": "https://api.github.com/repos/Massfice/application-system/zipball/7e01afaa656e068881c6e8eb5713f386867a8874",
+                "reference": "7e01afaa656e068881c6e8eb5713f386867a8874",
                 "shasum": ""
             },
             "require": {
@@ -158,7 +158,7 @@
                 }
             ],
             "description": "Core of my application. System application package. It's for my diploma project.",
-            "time": "2020-02-20T05:32:02+00:00"
+            "time": "2020-02-23T19:33:55+00:00"
         },
         {
             "name": "massfice/clean-url",
