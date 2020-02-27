@@ -1,6 +1,6 @@
 <?php
 
-namespace Massfice\Application;
+namespace Massfice\Application\Actions;
 
 use Massfice\Application\System\Views;
 use Massfice\Smart\Import;
