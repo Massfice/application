@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "massfice/action",
-            "version": "v1.0.8",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/action.git",
-                "reference": "f4ad0f3ae12d575d838c6035eff30c558776284d"
+                "reference": "b4361bd728fb66516d867b38768b432f9309a7ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/action/zipball/f4ad0f3ae12d575d838c6035eff30c558776284d",
-                "reference": "f4ad0f3ae12d575d838c6035eff30c558776284d",
+                "url": "https://api.github.com/repos/Massfice/action/zipball/b4361bd728fb66516d867b38768b432f9309a7ee",
+                "reference": "b4361bd728fb66516d867b38768b432f9309a7ee",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 }
             ],
             "description": "This package contains action interfaces and factiories. This is for my diploma project.",
-            "time": "2020-02-20T05:24:08+00:00"
+            "time": "2020-03-01T20:02:42+00:00"
         },
         {
             "name": "massfice/action-executor",
@@ -81,16 +81,16 @@
         },
         {
             "name": "massfice/action-manager",
-            "version": "v1.0.6",
+            "version": "v1.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Massfice/action-manager.git",
-                "reference": "961ac26454416ab7466056278281a730f149273b"
+                "reference": "089169074a69f46c8bdd82d87af2953d250dfcb4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Massfice/action-manager/zipball/961ac26454416ab7466056278281a730f149273b",
-                "reference": "961ac26454416ab7466056278281a730f149273b",
+                "url": "https://api.github.com/repos/Massfice/action-manager/zipball/089169074a69f46c8bdd82d87af2953d250dfcb4",
+                "reference": "089169074a69f46c8bdd82d87af2953d250dfcb4",
                 "shasum": ""
             },
             "require": {
@@ -115,7 +115,7 @@
                 }
             ],
             "description": "Managers for my actions and related factory. It is for my diploma project.",
-            "time": "2020-02-20T05:30:05+00:00"
+            "time": "2020-03-01T20:11:25+00:00"
         },
         {
             "name": "massfice/application-system",
